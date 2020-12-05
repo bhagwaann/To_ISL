@@ -1,2 +1,2 @@
 # ISL
-Text to indian sign language
+Text to indian sign language sign representation
