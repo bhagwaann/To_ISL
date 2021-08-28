@@ -111,6 +111,8 @@ https://user-images.githubusercontent.com/65160713/131209322-6d4bbe8b-6db4-4b18-
 
 • To make dataset with 1-2 persons to maintain the consistency of output video.
 
+• Make it's vice versa, i.e. indian sign language to text.
+
 • To add SIGML animation too as an option
 
 • Implement parallel processing so that as soon as someone keeps on speaking, it keeps on converting that to sign language sentence by sentence, until the person stops.
