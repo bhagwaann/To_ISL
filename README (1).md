@@ -24,36 +24,93 @@ Currently, our dataset consists of more than 300 words.
 
 • Can process voice both with internet and without internet.
 
-• Uses synonyms of words, which are selected manually, so that if any word is used outside of dataset but has it's synonym in our dataset, then it will be replaced by the word similar to it present in our dataset.
+• Uses synonyms of words, which are selected manually, so that if any word is used outside of dataset but has a word similar to it in our dataset, then it will be replaced by the word similar to it present in our dataset.
 
-• If any word or it's synonym is not present in our dataset, then it's letter by letter representation is displayed.
+• If any word or a word similar to it is not present in our dataset, then it's letter by letter representation is displayed.
 
 • The model keeps all rules of ISL grammar in mind while conversion of a sentence from english to it's ISL representation.
 
-• Can handle abbreviations,short forms and contractions too.
+• Can handle short forms and contractions of words too.
 ## Examples
 
-Input- How are you
+## Processing-
 
-ISL representation - You how
+**Input mode-** Text
 
-Output-
+![Screenshot (441)](https://user-images.githubusercontent.com/65160713/131209520-70ec47d4-4b65-4aab-9dcf-12726d7abd0a.png)
 
-Input- How are you
+**Input mode-** Audio
 
-ISL representation - You how
+![Screenshot (442)](https://user-images.githubusercontent.com/65160713/131209745-fafbd756-0e90-4d7c-820d-deb49e058cd6.png)
 
-Output-
 
-Input- How are you
+**Input-** How are you
 
-ISL representation - You how
+**ISL representation -** You how
 
-Output-
+**Output-**
 
-Input- How are you
 
-ISL representation - You how
 
-Output-
+https://user-images.githubusercontent.com/65160713/131209061-a49936f1-048e-4573-b564-587390893e5e.mp4
 
+
+**Input-** "Why is your annual salary less"
+
+**ISL representation** - "your year income less why"
+
+**Note-** As we can see 'annual' is not presented in our dataset so it replaces it with 'yearly' which is then represented by 'year' in ISL.
+
+**Output**- 
+
+
+
+https://user-images.githubusercontent.com/65160713/131209231-b137fa45-7400-4716-8919-341c92c96d90.mp4
+
+
+
+
+**Input**- "She's not gonna do this"
+
+**ISL representation** - "She this not go to do"
+
+**Note**- As we can see it handles contractions like 'she's' and 'gonna' where 'she's' is converted to 'she is' and 'gonna' to 'going to'.
+
+**Output**- 
+
+
+https://user-images.githubusercontent.com/65160713/131209017-a6bb4707-84d0-473d-8af8-6c9ca9a438e9.mp4
+
+
+
+**Input**- "I will visit Kanpur next year"
+
+**ISL representation** - "I kanpur will visit next year" 
+
+**Output**-
+
+
+
+https://user-images.githubusercontent.com/65160713/131209111-13f65d3b-d9a5-4cb0-93b6-002291362cd6.mp4
+
+
+
+**Input**- "His leg was paining because he met with an accident yesterday"
+
+**ISL representation**- "it yesterday his leg pain met with accident"
+
+**Note**- As we can see it can handle big and complex sentences too.
+
+**Output**-
+
+
+https://user-images.githubusercontent.com/65160713/131209322-6d4bbe8b-6db4-4b18-9e7d-23547b760925.mp4
+
+
+## Future plans
+
+• To make dataset with 1-2 persons to maintain the consistency of output video.
+
+• To add SIGML animation too as an option
+
+• Implement parallel processing so that as soon as someone keeps on speaking, it keeps on converting that to sign language sentence by sentence, until the person stops.
