@@ -13,7 +13,7 @@ The model takes a sentence(voice/text) as input and displays an ISL representati
 
 This model have been implemented by using two different parsers. ISL benepar.py uses benepar parser while model.py uses CoreNLPparser.
 
-The goal is to help the deaf community by giving them resources by using which they don't feel inferior and get facilties so they can unleash their full potential and their disability be no more the obstacle between they and their dreams.
+The goal is to help the deaf community by giving them resources by using which they don't feel inferior and get facilties so they can unleash their full potential and their disability be no more the obstacle between them and their dreams.
 
 ## Dataset
 
