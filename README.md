@@ -11,7 +11,9 @@ ISL(Indian Sign Language) is predominantly used in Indian subcontinent. It is us
 
 The model takes a sentence(voice/text) as input and displays an ISL representative video of the sentence, keeping in mind all the rules and grammar of ISL. 
 
-I have implemented the model by using two different parsers. ISL benepar.py uses benepar parser while model.py uses CoreNLPparser.
+This model have been implemented by using two different parsers. ISL benepar.py uses benepar parser while model.py uses CoreNLPparser.
+
+The goal is to help the deaf community by giving them resources by using which they don't feel inferior and get facilties so they can unleash their full potential and their disability be no more the obstacle between they and their dreams.
 
 ## Dataset
 
@@ -115,4 +117,4 @@ https://user-images.githubusercontent.com/65160713/131209322-6d4bbe8b-6db4-4b18-
 
 • To add SIGML animation too as an option
 
-• Implement parallel processing so that as soon as someone keeps on speaking, it keeps on converting that to sign language sentence by sentence, until the person stops.
+• Implement parallel processing so that as soon as someone keeps on speaking, it keeps on converting that to sign language sentence by sentence, until the person stops so that we can use it in real life like in schools and colleges, seminars, videos with deaf translation and many more...
